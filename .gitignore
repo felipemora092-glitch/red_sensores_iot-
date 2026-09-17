@@ -1,0 +1,25 @@
+# Archivos de clase compilados
+*.class
+
+# Archivos de registros
+*.log
+
+# Paquetes y archivos comprimidos
+*.jar
+*.war
+*.ear
+*.nar
+
+# Archivos de caché y compilación de Maven / Gradle
+target/
+.gradle/
+build/
+
+# IDEs (IntelliJ, Eclipse, NetBeans)
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+nbproject/private/
+i
