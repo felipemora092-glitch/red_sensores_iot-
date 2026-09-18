@@ -1,25 +1,26 @@
-# Archivos de clase compilados
+# Archivos compilados de Java
 *.class
 
-# Archivos de registros
-*.log
-
-# Paquetes y archivos comprimidos
-*.jar
-*.war
-*.ear
-*.nar
-
-# Archivos de caché y compilación de Maven / Gradle
+# Carpetas de compilacion y construccion
+bin/
+out/
 target/
-.gradle/
 build/
 
-# IDEs (IntelliJ, Eclipse, NetBeans)
+# Configuracion local de IDEs
 .idea/
+.vscode/
 *.iml
-.classpath
-.project
-.settings/
-nbproject/private/
-i
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y de respaldo
+*.tmp
+*.temp
+*.swp
+*~
+
+# Registros generados localmente
+*.log
